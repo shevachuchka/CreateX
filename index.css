@@ -494,6 +494,11 @@ button.button-play_video:hover {
     animation: progress-4 1.5s ease-out;
 }
 
+
+
+
+ff
+
 @keyframes progress-1 {
     from {
         stroke-dashoffset: 450;
