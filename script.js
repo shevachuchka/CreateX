@@ -1,12 +1,11 @@
-let animItems = document.querySelectorAll('._anim-Items');
+const animItems = document.querySelectorAll('._anim-Items');
 
-console.log(animItems)
 if (animItems.length > 0) {
     window.addEventListener('scroll', animOnScroll);
     function animOnScroll() {
         for (let i = 0; i < animItems.length; i++) {
-            let animItem = animItems[i];
-            let animItemHeigth = animItem.offsetHeight;
+            const animItem = animItems[i];
+            const animItemHeigth = animItem.offsetHeight;
             let animItemOffset = offset(animItem).top;
             let animStart = 4;
 
@@ -14,14 +13,15 @@ if (animItems.length > 0) {
 
             if (animItemHeigth > window.innerHeight) {
                 animItemPoint = window.innerHeight - window.innerHeight / animStart;
-            }
+            };
 
             if ((scrollY > animItemOffset - animItemPoint) && scrollY < (animItemOffset + animItemHeigth)) {
                 animItem.classList.add('_active');
             } else {
                 animItem.classList.remove('_active');
-            }
-        }
+            };
+        };
+
         function offset(el) {
             const rect = el.getBoundingClientRect(),
                 scrollLeft = window.scrollX || document.documentElement.scrollLeft,
@@ -34,21 +34,55 @@ if (animItems.length > 0) {
     };
 };
 
+
 // TABS
 
 const tabs = document.querySelectorAll('[data-tab-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
 
 tabs.forEach(tab => {
-  tab.addEventListener('click', (event) => {
-    const target = document.querySelector(tab.dataset.tabTarget);
-    tabContents.forEach(tabContent => {
-      tabContent.classList.remove('active');
+    tab.addEventListener('click', (event) => {
+        const target = document.querySelector(tab.dataset.tabTarget);
+        tabContents.forEach(tabContent => {
+            tabContent.classList.remove('active');
+        });
+        tabs.forEach(tab => {
+            tab.classList.remove('active');
+        });
+        event.currentTarget.classList.add('active');
+        target.classList.add('active');
     });
-    tabs.forEach(tab => {
-      tab.classList.remove('active');
+});
+
+
+
+// Accordion
+
+const accdn = document.getElementsByClassName("acc-btn");
+let i;
+
+for (i = 0; i < accdn.length; i++) {
+    accdn[i].addEventListener("click", function () {
+
+        this.classList.toggle("active");
+
+        let content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
     });
-    event.currentTarget.classList.add('active');
-    target.classList.add('active');
-  });
+};
+
+
+
+const swiper = new Swiper('.swiper', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+    slidesPerView: 3,
+    centeredSlides: true,
+    spaceBetween: 30,
 });
