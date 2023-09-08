@@ -260,8 +260,6 @@ p {
     color: var(--primary, #7772F1);
 }
 
-.row1-btn1 {}
-
 .button-large {
     display: inline-flex;
     padding: 0px 40px;
@@ -361,7 +359,6 @@ button.button-play_video:hover {
 
 /* Section 2 */
 
-.section_2 {}
 
 .sec2-wrapper {
     display: flex;
@@ -920,11 +917,12 @@ button.button-play_video:hover {
 
 .form-name_email {
     display: flex;
+    justify-content: space-between;
 }
 
 #formName {
     display: flex;
-    width: 95%;
+width: 95%;
     padding: 13px 16px;
     align-items: center;
     border-radius: 4px;
@@ -960,6 +958,7 @@ button.button-play_video:hover {
     flex-direction: column;
     gap: 8px;
 }
+
 
 #formUrl {
     display: flex;
@@ -1045,7 +1044,8 @@ button.button-play_video:hover {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 210px;
+    padding: 0 30px;
     border-radius: 4px;
     background: var(--primary, #7772F1);
 }

@@ -93,12 +93,6 @@
 }
 
 
-@media (max-width: 991px) {
-    #sec5-button {
-        width: 70% !important;
-    }
-}
-
 
 @media (max-width: 908px) {
 
@@ -175,6 +169,25 @@
 @media (max-width: 634px){
     .sec4-buttons_animation {
         overflow-x: scroll;
+    }
+}
+
+@media(max-width: 575px) {
+    .form-name_email input {
+        width: 100% !important;
+    }
+    
+    .form-name_email {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sec5-checkbox_button {
+        gap: 20px;
+    }
+    .sec5-button {
+        width: 100% !important;
     }
 }
 
