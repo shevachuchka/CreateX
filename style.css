@@ -694,6 +694,7 @@ button.button-play_video:hover {
     color: var(--gray-600, #9A9CA5);
     cursor: pointer;
     transition: 0.5s;
+    margin-bottom: 15px;
 }
 
 .sec4-buttons_animation button[type="button"].active {
@@ -719,8 +720,26 @@ button.button-play_video:hover {
     display: flex;
     flex-direction: row;
     width: 100%;
-    overflow: scroll;
 }
+
+/* Custom scrolllbar for tabs */
+
+.sec4-buttons_animation::-webkit-scrollbar {
+    height: 8px;
+}
+
+.sec4-buttons_animation::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 10px;
+}
+
+.sec4-buttons_animation::-webkit-scrollbar-thumb {
+
+    background: #7772F1;
+    border-radius: 10px;
+}
+/* //////////////////////// */
+
 
 [data-tab-content] {
     display: none;

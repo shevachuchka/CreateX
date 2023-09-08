@@ -172,6 +172,12 @@
     }
 }
 
+@media (max-width: 634px){
+    .sec4-buttons_animation {
+        overflow-x: scroll;
+    }
+}
+
 @media (max-width: 485px) {
 
     .row1-buttons {
