@@ -82,27 +82,140 @@
 
 @media (max-width: 908px) {
 
+    .navbar {
+        padding: 8px 0 !important;
+    }
+
     .header-nav-home {
-        justify-content: space-between !important;
+        justify-content: space-evenly !important;
+        gap: 15px;
+    }
+
+    .header-nav-home div.row {
+        display: none;
     }
 
     .header-span {
         display: none !important;
     }
 
+    .mobile_menu_hidden-wrapper {
+        display: flex !important;
+    }
+
     .svg_lines2 {
         display: none;
     }
+
+    .row1-p {
+        font-size: 55px !important;
+    }
+
+    .sec1-row1 {
+        max-width: 80% !important;
+        flex-wrap: wrap-reverse;
+        padding: 0 !important;
+    }
+
+    .sec1-shape {
+        display: none;
+    }
+
 }
 
 @media (max-width: 767px) {
+
+    .sec1-row2 {
+        display: none !important;
+    }
+
     .about-col1 {
         padding-top: 15px;
         gap: 10px !important;
     }
 
     .sec3-about {
-
         flex-direction: column-reverse !important;
+    }
+}
+
+@media (max-width: 735px) {
+
+    .progressbar__text1 {
+        left: calc(100%/2 - 15%) !important;
+        top: calc(100%/2 - 20%) !important;
+    }
+
+    .progressbar__text2 {
+        left: calc(100%/2 - 26%) !important;
+        top: calc(100%/2 - 20%) !important;
+    }
+}
+
+@media (max-width: 485px) {
+
+    .row1-buttons {
+        justify-content: center;
+    }
+
+    .row1-p {
+        text-align: center;
+    }
+
+    .header-button {
+        display: none !important;
+    }
+
+    .mob_menu-navigation {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .logo-web img {
+        width: 70%;
+    }
+
+    .row1-p {
+        font-size: 42px !important;
+    }
+
+    .sec2-row1-grid {
+        flex-wrap: wrap;
+    }
+
+    .sec2-row1 {
+        gap: 40px !important;
+    }
+
+    .sec2-row1-text {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 323px) {
+    .sec2-row2-container {
+        display: none !important;
+    }
+
+    .grid-clutch,
+    .grid-forbes,
+    .grid-top-seo,
+    .grid-upcity {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 278px) {
+    .button-text {
+        font-size: 12px !important;
+        line-height: 42px;
+    }
+
+    .row1-p {
+        font-size: 32px !important;
     }
 }

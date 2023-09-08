@@ -143,3 +143,15 @@ function scrollTopButton() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+
+// Burger menu
+
+
+const burgerMenuButton = document.getElementById('burger-menu-btn');
+const burgerMenu = document.getElementById('burger-menu');
+
+
+burgerMenuButton.addEventListener('click', () => {
+    burgerMenu.classList.toggle('active');
+});

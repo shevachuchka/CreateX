@@ -17,7 +17,6 @@ svg {
     z-index: -1;
 }
 
-
 button {
     padding: 0;
     border: none;
@@ -67,7 +66,7 @@ input {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-        width: 1230px;
+    width: 1230px;
     padding-top: 10px;
 }
 
@@ -106,6 +105,14 @@ p {
 }
 
 
+
+/* .header-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
 .header-btn {
     display: inline-flex;
     padding: 0px 40px;
@@ -128,10 +135,53 @@ p {
     letter-spacing: 0.5px;
 }
 
-.burger-menu-hidden {
+/* Burger menu */
+
+.mobile_menu_hidden-wrapper {
     display: none;
 }
 
+.mob-menu-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #FFF;
+    border-radius: 20px;
+    opacity: .8;
+    left: 0;
+}
+
+.mob_menu-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    gap: 15px;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 3;
+
+    transform: translateX(-110%);
+    transition: 0.5s ease;
+}
+
+.burger-menu-text {
+    color: #7772F1;
+    opacity: 1;
+}
+
+.mob_menu-navigation.active {
+    transform: translateX(0);
+}
+
+.mob_menu-icon {
+    display: inherit;
+    justify-content: center;
+}
 
 /* Section 1 */
 
@@ -234,6 +284,7 @@ button.button-play_video:hover {
 
 .row1-buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
 }
 
@@ -258,7 +309,7 @@ button.button-play_video:hover {
 }
 
 
-.row2-span-text{
+.row2-span-text {
     display: inline-flex;
     align-items: center;
 }
@@ -496,8 +547,8 @@ button.button-play_video:hover {
 
 .progressbar__text1 {
     position: absolute;
-    left: 50px;
-    top: 50px;
+    left: calc(100%/2 - 17%);
+    top: calc(100%/2 - 23%);
     color: var(--gray-900, #1E212C);
     text-align: center;
     font-family: Lato;
@@ -509,12 +560,11 @@ button.button-play_video:hover {
 
 .progressbar__text2 {
     position: absolute;
-    left: 30px;
-    top: 50px;
+    left: calc(100%/2 - 30%);
+    top: calc(100%/2 - 23%);
     color: var(--gray-900, #1E212C);
-    text-align: center;
     font-family: Lato;
-    font-size: 32px;
+    font-size: 32px ;
     font-style: normal;
     font-weight: 900;
     line-height: 130%;
@@ -728,7 +778,7 @@ button.button-play_video:hover {
 
 .sec4-bg_svg img {
     width: 100%;
-    
+
 }
 
 .sec4-img {
@@ -769,7 +819,8 @@ button.button-play_video:hover {
     align-items: center;
     color: #FFF;
     background: var(--primary, #7772F1);
-    border-radius: 4px;    gap: 10px;
+    border-radius: 4px;
+    gap: 10px;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -1154,7 +1205,7 @@ button.button-play_video:hover {
     flex-direction: column;
     justify-content: space-between;
     padding: 31px 40px 40px 31px;
-    width: 100% ;
+    width: 100%;
     height: 390px;
     margin: 0 auto;
 }
@@ -1231,6 +1282,7 @@ button.button-play_video:hover {
 
 .sec7-p_btn {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -1640,13 +1692,18 @@ button.button-play_video:hover {
     align-items: center;
     padding: 40px 100px;
     width: 390px;
-    height: 536px;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid rgba(119, 114, 241, 0.40);
     background: var(--white, #FFF);
     box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
     transition: .5s ease;
+}
+
+@media (max-width: 414px) {
+    .divider-cards {
+        display: none;
+    }
 }
 
 .sec9-cards_price h3 {
@@ -2266,7 +2323,8 @@ footer {
 
 .footer-sponsors {
     display: inline-flex;
-    width: 50%;
+    flex-wrap: wrap;
+    gap: 15px;
     justify-content: space-between;
 }
 
@@ -2300,7 +2358,8 @@ footer {
 .footer-byCreateStudio {
     height: 50px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.12);}
+    background: rgba(255, 255, 255, 0.12);
+}
 
 .footer-byCreateStudio-content {
     max-width: 1230px;
@@ -2310,7 +2369,7 @@ footer {
 }
 
 .footer-byCreateStudio-content p {
-    color:#FFF;
+    color: #FFF;
     font-family: Lato;
     font-size: 12px;
     font-style: normal;
