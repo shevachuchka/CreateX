@@ -45,6 +45,10 @@
 
 @media (max-width: 1199px) {
 
+    .our-services-wrapper {
+        padding-bottom: 90px !important;
+    }
+
     .sec4-content-seo.active,
     .sec4-content-research.active,
     .sec4-content-CPR.active,
@@ -53,14 +57,30 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        width: 70%;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sec4-h3_list_btn h3 {
+        text-align: center;
+    }
+    .sec4-content-btns {
+        justify-content: center;
+    }
+
+    .sec4-content-btn,
+    .sec4-content-btn-filled {
+        width: 140px !important;
+    }
+
+
+    .sec4-h3_list_btn ol{
+        width: 80%;
+        text-align: center;
         margin: 0 auto;
     }
 
-    .sec4-h3_list_btn {
-        width: 80% !important;
-        margin: 0 auto;
-        align-items: center;
+    .sec4-h3_list_btn ol li{
+        justify-content: center;
     }
 
     .sec4-bg_svg {
