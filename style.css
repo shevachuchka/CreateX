@@ -170,6 +170,11 @@ p {
 }
 
 .burger-menu-text {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
     color: #7772F1;
     opacity: 1;
 }
@@ -1044,7 +1049,7 @@ width: 95%;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    width: 210px;
+    width: 95%;
     padding: 0 30px;
     border-radius: 4px;
     background: var(--primary, #7772F1);
