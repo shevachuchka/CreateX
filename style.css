@@ -45,6 +45,10 @@ input {
     margin: 0;
 }
 
+
+body {
+    overflow-x: hidden;
+}
 /* Header + Section1 */
 
 .navbar {
@@ -1059,7 +1063,7 @@ width: 95%;
     color: var(--white, #FFF);
     text-align: center;
     font-family: Lato;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
@@ -1115,8 +1119,10 @@ width: 95%;
 .sec6_wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1230px;
+    gap: 45px;
     margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 180px;
@@ -1174,15 +1180,11 @@ width: 95%;
 }
 
 .sec6-button button {
-    display: inline-flex;
     padding: 0px 32px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
     border-radius: 4px;
     background: var(--primary, #7772F1);
-    width: 184px;
     height: 44px;
+    overflow: hidden; 
 }
 
 .sec6-button button p {
@@ -1201,6 +1203,10 @@ width: 95%;
     width: 16px;
 }
 
+
+.sec6-img {
+    text-align: center;
+}
 /* Section 7 */
 
 .section_7 {

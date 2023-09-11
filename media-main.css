@@ -151,6 +151,8 @@
     .sec3-about {
         flex-direction: column-reverse !important;
     }
+
+    
 }
 
 @media (max-width: 735px) {
@@ -212,7 +214,7 @@
     }
 
     .logo-web img {
-        width: 70%;
+        width: 80%;
     }
 
     .row1-p {
