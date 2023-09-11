@@ -85,7 +85,23 @@ const sec7Swiper = new Swiper('.sec7-swiper', {
     slidesPerView: 3,
     centeredSlides: true,
     spaceBetween: 30,
-    speed: 1200
+    speed: 1200,
+    breakpoints: {
+        150: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+    //     // when window width is >= 480px
+        670: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+    //     // when window width is >= 640px
+        1000: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    }
 });
 
 

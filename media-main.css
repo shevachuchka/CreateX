@@ -174,6 +174,7 @@
     }
 }
 
+
 @media(max-width: 575px) {
     .form-name_email input {
         width: 100% !important;
@@ -217,6 +218,10 @@
         width: 80%;
     }
 
+    .button-large {
+        padding: 0 20px !important;
+    }
+
     .row1-p {
         font-size: 42px !important;
     }
@@ -231,6 +236,31 @@
 
     .sec2-row1-text {
         font-size: 20px !important;
+    }
+}
+
+@media (max-width: 371px) {
+    .swiper-button-prev-custom,
+    .swiper-button-next-custom {
+        display: none !important;
+    }
+    .sec7-h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 368px){
+    .block-text p {
+        font-size: 13px !important;
+    }
+
+    .swiper-text {
+        gap: 30px !important;
+    }
+
+    .block-progbar {
+        flex-direction: column-reverse ;
+        gap: 15px !important;
     }
 }
 
