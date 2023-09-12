@@ -1241,7 +1241,7 @@ button.button-play_video:hover {
 }
 
 .swiper-wrapper {
-    width: 100%ou;
+    width: 100%;
 }
 
 .swiper-el-block {
@@ -1291,6 +1291,7 @@ button.button-play_video:hover {
 .block3,
 .block4,
 .block5 {
+    
     border-radius: 4px;
     border: 1px solid var(--gray-300, #E5E8ED);
     background: var(--white, #FFF);
@@ -1574,7 +1575,9 @@ button.button-play_video:hover {
 
 }
 
+
 .cards {
+    min-height: 237px;
     margin-top: 24px;
     padding: 40px 48px;
     border-radius: 4px;

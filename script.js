@@ -91,12 +91,10 @@ const sec7Swiper = new Swiper('.sec7-swiper', {
             slidesPerView: 1,
             spaceBetween: 20
         },
-    //     // when window width is >= 480px
         670: {
             slidesPerView: 2,
             spaceBetween: 30
         },
-    //     // when window width is >= 640px
         1000: {
             slidesPerView: 3,
             spaceBetween: 30
@@ -161,7 +159,7 @@ function scrollTopButton() {
 }
 
 
-// Burger menu
+// Burger menu (Mobile)
 
 
 const burgerMenuButton = document.getElementById('burger-menu-btn');

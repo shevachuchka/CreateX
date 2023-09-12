@@ -92,7 +92,11 @@
     }
 }
 
-
+@media(max-width: 991px) {
+    .sec8-img {
+        display: none !important;
+    }
+}
 
 @media (max-width: 908px) {
 
@@ -133,6 +137,10 @@
 
     .sec1-shape {
         display: none;
+    }
+
+    .sec8-content-column {
+        justify-content: space-between !important;
     }
 
 }
