@@ -43,6 +43,19 @@
 
 }
 
+
+@media (max-width: 1252px) {
+    .sec9-cards_price {
+        padding: 20px 50px !important;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-price-container {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 1199px) {
 
     .our-services-wrapper {
@@ -96,6 +109,11 @@
     .sec8-img {
         display: none !important;
     }
+
+    .sec8-svg_right {
+        display: none;
+    }
+
 }
 
 @media (max-width: 908px) {
@@ -158,6 +176,10 @@
 
     .sec3-about {
         flex-direction: column-reverse !important;
+    }
+
+    .sec8-svg_left {
+        display: none;
     }
 
     
@@ -242,8 +264,24 @@
         gap: 40px !important;
     }
 
-    .sec2-row1-text {
+    .sec2-row1-text  {
         font-size: 20px !important;
+    }
+}
+
+
+
+@media (max-width: 414px) {
+    .sec9-cards_price {
+        padding: 20px 50px !important;
+    }
+
+    .sec9-cards-list li {
+        font-size: 13px;
+    }
+
+    .sec9-cards-list {
+        padding: 15px 0 !important;
     }
 }
 

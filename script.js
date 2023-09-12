@@ -169,3 +169,24 @@ const burgerMenu = document.getElementById('burger-menu');
 burgerMenuButton.addEventListener('click', () => {
     burgerMenu.classList.toggle('active');
 });
+
+
+
+const sec9Swiper = new Swiper ('.sec9-swiper-mob', {
+    slidesPerView: 3,
+    centeredSlides: false,
+    speed: 1200,
+    loop: false,
+    spaceBetween: 30,
+    breakpoints: {
+        1253: {
+            slidesPerView: 3
+        },
+        835: {
+            slidesPerView: 2
+        },
+        150: {
+            slidesPerView: 1
+        }
+    }
+});
