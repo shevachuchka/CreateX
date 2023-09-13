@@ -50,9 +50,9 @@ input {
 }
 
 
-body {
+/* body {
     overflow-x: hidden;
-}
+} */
 
 /* Header + Section1 */
 
@@ -1692,7 +1692,7 @@ button.button-play_video:hover {
 .btnSwitch-monthly,
 .btnSwitch-yearly {
     display: flex;
-    width: 210px;
+    width: 50%;
     padding: 10px 20px;
     flex-direction: column;
     align-items: center;
@@ -1730,7 +1730,7 @@ button.button-play_video:hover {
 
 
 .btnSwitch-yearly.active+.cards-btn-amination::before {
-    transform: translateX(180px);
+    transform: translateX(86%);
 }
 
 /* Cards with price */
@@ -1863,44 +1863,47 @@ button.button-play_video:hover {
     transition: .5s ease;
 }
 
+.cards-btnMobSwitch {
+    display: none;
+}
 
-
-/* Section 9 Hover */
-
-
-.sec9-cards_price:hover {
+.sec9-cards_price-green {
     border-radius: 4px;
     border: 1px solid var(--success, #03CEA4);
     background: var(--gray-900, #1E212C);
 }
 
-.sec9-cards_price:hover h3 {
+.sec9-cards_price-green h3 {
     color: var(--white, #FFF);
 }
 
-.sec9-cards_price:hover p {
+.sec9-cards_price-green p {
     color: var(--success, #03CEA4);
 }
 
-.sec9-cards_price:hover h1 {
+.sec9-cards_price-green h1 {
     color: var(--success, #03CEA4);
 }
 
 
-.sec9-cards_price:hover .li-default::before {
+.sec9-cards_price-green .li-default::before {
     content: url(img/svg/Mark-green.svg);
 }
 
-.sec9-cards_price:hover .li-default {
+.sec9-cards_price-green .li-default {
     color: var(--white, #FFF);
 }
 
 
 
-.sec9-cards_price:hover .sec9-cards-button {
+.sec9-cards_price-green .sec9-cards-button {
     border-radius: 4px;
     background: var(--primary, #7772F1);
     color: #FFF;
+}
+
+.sec9-cards-button-wrapper {
+    text-align: center;
 }
 
 
