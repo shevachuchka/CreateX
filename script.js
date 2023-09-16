@@ -146,6 +146,7 @@ const sec10Swiper = new Swiper('.sec10-swiper', {
     slidesPerView: 1,
     centeredSlides: true,
     speed: 1200,
+    spaceBetween: 40,
     loop: true
 });
 
