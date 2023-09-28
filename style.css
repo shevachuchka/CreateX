@@ -141,7 +141,7 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 /* Burger menu */
@@ -262,27 +262,27 @@ p {
 
 .row1-p {
     color: #FFF;
-    font-family: Lato, Serif;
+    font-family: Lato, serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 130%;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .row1-p-blue {
-    color: var(--primary, #7772F1);
+    color: #7772F1;
 }
 
 .button-large {
     display: inline-flex;
-    padding: 0px 40px;
+    padding: 0 40px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     height: 52px;
     border-radius: 4px;
-    border: 1px solid var(--white, #FFF);
+    border: 1px solid #FFF;
     overflow-y: hidden;
 }
 
@@ -334,8 +334,8 @@ button.button-play_video:hover {
 }
 
 .span-p {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -407,8 +407,8 @@ button.button-play_video:hover {
 
 
 .sec2-grid-p {
-    color: var(--gray-800, #424551);
-    font-family: Lato;
+    color: #424551;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -428,8 +428,8 @@ button.button-play_video:hover {
 }
 
 .sec2-row1-text {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -471,7 +471,7 @@ button.button-play_video:hover {
 
 .about-col1 .row1-p {
     font-size: 46px;
-    color: var(--gray-900, #1E212C);
+    color: #1E212C;
 }
 
 .about-col1 .sec2-grid-p {
@@ -482,18 +482,18 @@ button.button-play_video:hover {
 .button-moreAboutUs {
     display: inline-flex;
     max-width: 161px;
-    padding: 0px 32px;
+    padding: 0 32px;
     flex-direction: row;
     align-items: center;
     gap: 10px;
     border-radius: 4px;
-    background: var(--primary, #7772F1);
+    background: #7772F1;
 }
 
 .button-moreAboutUs-p {
-    color: var(--white, #FFF);
+    color: #FFF;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -562,9 +562,9 @@ button.button-play_video:hover {
     position: absolute;
     left: calc(100%/2 - 17%);
     top: calc(100%/2 - 23%);
-    color: var(--gray-900, #1E212C);
+    color: #1E212C;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 900;
@@ -575,8 +575,8 @@ button.button-play_video:hover {
     position: absolute;
     left: calc(100%/2 - 30%);
     top: calc(100%/2 - 23%);
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 900;
@@ -653,9 +653,9 @@ button.button-play_video:hover {
 .prog-bar-green,
 .prog-bar-blue,
 .prog-bar-pink p {
-    color: var(--gray-800, #424551);
+    color: #424551;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -667,9 +667,9 @@ button.button-play_video:hover {
 /* Section 4 */
 
 .sec4-h1 h1 {
-    color: var(--gray-900, #1E212C);
+    color: #1E212C;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 46px;
     font-style: normal;
     font-weight: 900;
@@ -704,7 +704,7 @@ button.button-play_video:hover {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    color: var(--gray-600, #9A9CA5);
+    color: #9A9CA5;
     cursor: pointer;
     transition: 0.5s;
     margin-bottom: 15px;
@@ -712,17 +712,17 @@ button.button-play_video:hover {
 
 .sec4-buttons_animation button[type="button"].active {
     color: #7772F1;
-    border: 1px solid var(--primary, #7772F1);
+    border: 1px solid #7772F1;
 }
 
 .sec4-buttons_animation button[type="button"]:hover {
     color: #7772F1;
-    border: 1px solid var(--primary, #7772F1);
+    border: 1px solid #7772F1;
 }
 
 .sec4-btn-p {
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -766,8 +766,8 @@ button.button-play_video:hover {
 /* ///////////////////////// */
 
 .sec4-h3_list_btn h3 {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -781,9 +781,9 @@ button.button-play_video:hover {
 }
 
 .sec4-h3_list_btn ol>li>p {
-    color: var(--gray-800, #424551);
+    color: #424551;
     align-self: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -842,7 +842,7 @@ button.button-play_video:hover {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    border: 1px solid var(--primary, #7772F1);
+    border: 1px solid #7772F1;
     color: #7772F1;
     border-radius: 4px;
     cursor: pointer;
@@ -856,7 +856,7 @@ button.button-play_video:hover {
     flex-direction: column;
     align-items: center;
     color: #FFF;
-    background: var(--primary, #7772F1);
+    background: #7772F1;
     border-radius: 4px;
     gap: 10px;
     cursor: pointer;
@@ -866,7 +866,7 @@ button.button-play_video:hover {
 
 .sec4-content-btns p {
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -904,8 +904,8 @@ button.button-play_video:hover {
 }
 
 .sec5-forms_h1 h1 {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 46px;
     font-style: normal;
     font-weight: 900;
@@ -923,8 +923,8 @@ button.button-play_video:hover {
 }
 
 .p_out_form {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -959,8 +959,8 @@ button.button-play_video:hover {
 #formName::placeholder,
 #formEmail::placeholder,
 #formUrl::placeholder {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1064,13 +1064,13 @@ button.button-play_video:hover {
     width: 95%;
     padding: 0 30px;
     border-radius: 4px;
-    background: var(--primary, #7772F1);
+    background: #7772F1;
 }
 
 .sec5-button-p {
-    color: var(--white, #FFF);
+    color: #FFF;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -1152,8 +1152,8 @@ button.button-play_video:hover {
 }
 
 .acc button p {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -1162,8 +1162,8 @@ button.button-play_video:hover {
 }
 
 .acc-content p {
-    color: var(--gray-700, #787A80);
-    font-family: Lato;
+    color: #787A80;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1188,17 +1188,17 @@ button.button-play_video:hover {
 }
 
 .sec6-button button {
-    padding: 0px 32px;
+    padding: 0 32px;
     border-radius: 4px;
-    background: var(--primary, #7772F1);
+    background: #7772F1;
     height: 44px;
     overflow: hidden;
 }
 
 .sec6-button button p {
-    color: var(--white, #FFF);
+    color: #FFF;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -1231,8 +1231,8 @@ button.button-play_video:hover {
 }
 
 .sec7-h1 p {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 46px;
     font-style: normal;
     font-weight: 900;
@@ -1268,8 +1268,8 @@ button.button-play_video:hover {
 }
 
 .block-company p {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1277,8 +1277,8 @@ button.button-play_video:hover {
 }
 
 .block-text p {
-    color: var(--gray-700, #787A80);
-    font-family: Lato;
+    color: #787A80;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1294,24 +1294,24 @@ button.button-play_video:hover {
 .block2,
 .block3,
 .block4,
-.block5
+.block5{
     border-radius: 4px;
-    border: 1px solid var(--gray-300, #E5E8ED);
-    background: var(--white, #FFF);
-    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04)
-, 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    border: 1px solid #E5E8ED;
+    background: #FFF;
+    box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0 12px 10px -6px rgba(154, 156, 165, 0.04)
+, 0 30px 24px -10px rgba(154, 156, 165, 0.05), 0 80px 80px -20px rgba(154, 156, 165, 0.08);
 }
 
-.block1-progbar1,
-.block1-progbar2 {
+.block1-progressbar1,
+.block1-progressbar2 {
     display: inline-flex;
     align-items: center;
     gap: 12px;
 }
 
 .progbar-numbers {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -1319,8 +1319,8 @@ button.button-play_video:hover {
 }
 
 .progbar-p {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1340,7 +1340,7 @@ button.button-play_video:hover {
 
 .sec7-p_btn p {
     color: #1E212C;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -1350,20 +1350,20 @@ button.button-play_video:hover {
 
 .sec7-btn {
     display: flex;
-    padding: 0px 40px;
+    padding: 0 40px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     border-radius: 4px;
-    background: var(--primary, #7772F1);
+    background: #7772F1;
     height: 52px;
     overflow-y: hidden;
 }
 
 .sec7-btn p {
-    color: var(--white, #FFF);
+    color: #FFF;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1499,7 +1499,7 @@ button.button-play_video:hover {
 .swiper-button-next {
     left: auto !important;
     right: 0;
-    top: var(--swiper-navigation-top-offset, 17%) !important;
+    top: 17% !important;
 }
 
 .swiper-button-prev::after,
@@ -1565,9 +1565,9 @@ button.button-play_video:hover {
 
 
 .sec8-h1 h1 {
-    color: var(--gray-900, #1E212C);
+    color: #1E212C;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 46px;
     font-style: normal;
     font-weight: 900;
@@ -1585,8 +1585,8 @@ button.button-play_video:hover {
     margin-top: 24px;
     padding: 40px 48px;
     border-radius: 4px;
-    border: 1px solid var(--gray-300, #E5E8ED);
-    background: var(--white, #FFF);
+    border: 1px solid #E5E8ED;
+    background: #FFF;
     transition: .32s ease-out;
 }
 
@@ -1599,9 +1599,9 @@ button.button-play_video:hover {
 }
 
 .card-mainText {
-    color: var(--gray-900, #1E212C);
+    color: #1E212C;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -1610,9 +1610,9 @@ button.button-play_video:hover {
 }
 
 .card-text {
-    color: var(--gray-700, #787A80);
+    color: #787A80;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1621,7 +1621,7 @@ button.button-play_video:hover {
 
 .cards:hover {
     position: relative;
-    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0 12px 10px -6px rgba(154, 156, 165, 0.04), 0 30px 24px -10px rgba(154, 156, 165, 0.05), 0 80px 80px -20px rgba(154, 156, 165, 0.08);
 }
 
 .sec8-img {
@@ -1669,9 +1669,9 @@ button.button-play_video:hover {
 }
 
 .sec9-h1 h1 {
-    color: var(--gray-900, #1E212C);
+    color: #1E212C;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 46px;
     font-style: normal;
     font-weight: 900;
@@ -1699,9 +1699,9 @@ button.button-play_video:hover {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    color: var(--primary, #7772F1);
+    color: #7772F1;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1748,8 +1748,8 @@ button.button-play_video:hover {
     width: 390px;
     border-radius: 4px;
     border: 1px solid rgba(119, 114, 241, 0.40);
-    background: var(--white, #FFF);
-    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    background: #FFF;
+    box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0 12px 10px -6px rgba(154, 156, 165, 0.04), 0 30px 24px -10px rgba(154, 156, 165, 0.05), 0 80px 80px -20px rgba(154, 156, 165, 0.08);
     transition: .5s ease;
 }
 
@@ -1761,9 +1761,9 @@ button.button-play_video:hover {
 }
 
 .sec9-cards_price h3 {
-    color: var(--gray-900, #1E212C);
+    color: #1E212C;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -1776,8 +1776,8 @@ button.button-play_video:hover {
 }
 
 .card-price-container p {
-    color: var(--primary, #7772F1);
-    font-family: Lato;
+    color: #7772F1;
+    font-family: Lato, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -1787,9 +1787,9 @@ button.button-play_video:hover {
 
 
 .card-price-def {
-    color: var(--primary, #7772F1);
+    color: #7772F1;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 46px;
     font-style: normal;
     font-weight: 900;
@@ -1811,8 +1811,8 @@ button.button-play_video:hover {
 }
 
 .li-default {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1820,8 +1820,8 @@ button.button-play_video:hover {
 }
 
 .li-none_active {
-    color: var(--gray-600, #9A9CA5);
-    font-family: Lato;
+    color: #9A9CA5;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1853,10 +1853,10 @@ button.button-play_video:hover {
     align-items: center;
     gap: 10px;
     border-radius: 4px;
-    border: 1px solid var(--primary, #7772F1);
-    color: var(--primary, #7772F1);
+    border: 1px solid #7772F1;
+    color: #7772F1;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -1871,20 +1871,20 @@ button.button-play_video:hover {
 
 .sec9-cards_price-green {
     border-radius: 4px;
-    border: 1px solid var(--success, #03CEA4);
-    background: var(--gray-900, #1E212C);
+    border: 1px solid #03CEA4;
+    background: #1E212C;
 }
 
 .sec9-cards_price-green h3 {
-    color: var(--white, #FFF);
+    color: #FFF;
 }
 
 .sec9-cards_price-green p {
-    color: var(--success, #03CEA4);
+    color: #03CEA4;
 }
 
 .sec9-cards_price-green h1 {
-    color: var(--success, #03CEA4);
+    color: #03CEA4;
 }
 
 
@@ -1893,14 +1893,14 @@ button.button-play_video:hover {
 }
 
 .sec9-cards_price-green .li-default {
-    color: var(--white, #FFF);
+    color: #FFF;
 }
 
 
 
 .sec9-cards_price-green .sec9-cards-button {
     border-radius: 4px;
-    background: var(--primary, #7772F1);
+    background: #7772F1;
     color: #FFF;
 }
 
@@ -1934,8 +1934,8 @@ button.button-play_video:hover {
 
 /* ////////////////////////// */
 .sec10-h1 h1 {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 46px;
     font-style: normal;
     font-weight: 900;
@@ -1959,6 +1959,11 @@ button.button-play_video:hover {
     width: 48px !important;
     height: 48px !important;
 }
+.sec10-swiper-btn-prev-custom{
+    right: 94% !important;
+}
+
+
 
 .sec10-swiper-btn-prev-custom:hover,
 .sec10-swiper-btn-next-custom:hover {
@@ -2001,7 +2006,7 @@ button.button-play_video:hover {
     flex-shrink: 0;
     border-radius: 4px;
     background: #F4F5F6;
-    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03), 0 12px 10px -6px rgba(154, 156, 165, 0.04), 0 30px 24px -10px rgba(154, 156, 165, 0.05), 0 80px 80px -20px rgba(154, 156, 165, 0.08);
 }
 
 .sec10-slide-content {
@@ -2012,8 +2017,8 @@ button.button-play_video:hover {
 }
 
 .sec10-slide-comment-txt p {
-    color: var(--gray-800, #424551);
-    font-family: Lato;
+    color: #424551;
+    font-family: Lato, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -2039,7 +2044,7 @@ button.button-play_video:hover {
 
 .author-name {
     color: #1E212C !important;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -2048,7 +2053,7 @@ button.button-play_video:hover {
 
 .author-position {
     color: #787A80 !important;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -2093,8 +2098,8 @@ button.button-play_video:hover {
 
 /* //////////////// */
 .sec11-text-h1 h1 {
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 46px;
     font-style: normal;
     font-weight: 900;
@@ -2102,8 +2107,8 @@ button.button-play_video:hover {
 }
 
 .sec11-text-p p {
-    color: var(--gray-800, #424551);
-    font-family: Lato;
+    color: #424551;
+    font-family: Lato, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -2120,15 +2125,15 @@ button.button-play_video:hover {
     display: flex;
     width: 180px;
     height: 52px;
-    padding: 0px 40px;
+    padding: 0 40px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     border-radius: 4px;
-    background: var(--primary, #7772F1);
-    color: var(--white, #FFF);
+    background: #7772F1;
+    color: #FFF;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -2179,8 +2184,8 @@ button.button-play_video:hover {
 }
 
 .article-info_sphere p {
-    color: var(--gray-700, #787A80);
-    font-family: Lato;
+    color: #787A80;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -2193,8 +2198,8 @@ button.button-play_video:hover {
 
 .info_date-txt p {
     padding-left: 8px;
-    color: var(--gray-700, #787A80);
-    font-family: Lato;
+    color: #787A80;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -2211,8 +2216,8 @@ button.button-play_video:hover {
 }
 
 .info_author p {
-    color: var(--gray-700, #787A80);
-    font-family: Lato;
+    color: #787A80;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -2223,8 +2228,8 @@ button.button-play_video:hover {
 .content-text1 {
     padding-top: 10px;
     padding-bottom: 5px;
-    color: var(--gray-900, #1E212C);
-    font-family: Lato;
+    color: #1E212C;
+    font-family: Lato, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -2232,8 +2237,8 @@ button.button-play_video:hover {
 }
 
 .content-text2 {
-    color: var(--gray-800, #424551);
-    font-family: Lato;
+    color: #424551;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -2285,11 +2290,12 @@ footer {
 
 .footer-col1 {
     max-width: 300px;
+    width: 100%;
 }
 
 .footer-col1 p {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -2308,11 +2314,12 @@ footer {
 .footer-col2,
 .footer-col3 {
     max-width: 120px;
+    width: 100%;
 }
 
 .footer-title {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -2322,8 +2329,8 @@ footer {
 }
 
 .footer-txt {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -2333,8 +2340,8 @@ footer {
 }
 
 .footer-text {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -2347,10 +2354,22 @@ footer {
     padding-right: 5px;
 }
 
+.footer-col4 {
+    max-width: 180px;
+    width: 100%;
+}
+
+.footer-col5 {
+    max-width: 286px;
+    width: 100%;
+}
+
 
 .footer-col5-input {
     display: flex;
-    height: 36px;
+    max-width: 289px;
+    width: 100%;
+    max-height: 36px;
     margin-top: 12px;
     padding: 9px 12px;
     justify-content: center;
@@ -2360,8 +2379,8 @@ footer {
     background: rgba(255, 255, 255, 0.12);
 
 
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -2369,8 +2388,8 @@ footer {
 }
 
 .footer-col5-txt {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -2414,8 +2433,8 @@ footer {
 }
 
 .footer-button p {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -2448,7 +2467,7 @@ footer {
 
 .footer-byCreateStudio-content p {
     color: #FFF;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;

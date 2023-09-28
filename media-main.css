@@ -203,6 +203,13 @@
         padding-top: 15px;
         gap: 10px !important;
     }
+    .about-shape1 {
+        display: none;
+    }
+
+    .about-vectors {
+        display: none;
+    }
 
     .sec3-about {
         flex-direction: column-reverse !important;
@@ -244,6 +251,10 @@
     .sec4-buttons_animation {
         overflow-x: scroll;
     }
+
+    .divider-footer {
+        display: none;
+    }
 }
 
 
@@ -276,6 +287,10 @@
         font-size: 16px !important;
     }
     .sec10-slide-content-svg {
+        display: none;
+    }
+
+    .about-lines {
         display: none;
     }
 }
@@ -323,6 +338,14 @@
     .sec2-row1-text {
         font-size: 20px !important;
     }
+
+    .sec1-svg_vector {
+        display: none;
+    }
+
+    .svg_circles {
+        display: none;
+    }
 }
 
 
@@ -359,7 +382,7 @@
         border-radius: 40px;
         color: #7772f1;
         text-align: center;
-        font-family: Lato;
+        font-family: Lato, serif;
         font-size: 13px;
         font-style: normal;
         font-weight: 700;
