@@ -560,7 +560,7 @@ button.button-play_video:hover {
 
 .progressbar__text1 {
     position: absolute;
-    left: calc(100%/2 - 17%);
+    left: calc(100%/2 - 15%);
     top: calc(100%/2 - 23%);
     color: #1E212C;
     text-align: center;
@@ -573,7 +573,7 @@ button.button-play_video:hover {
 
 .progressbar__text2 {
     position: absolute;
-    left: calc(100%/2 - 30%);
+    left: calc(100%/2 - 27%);
     top: calc(100%/2 - 23%);
     color: #1E212C;
     font-family: Lato, serif;
@@ -864,7 +864,7 @@ button.button-play_video:hover {
 }
 
 
-.sec4-content-btns p {
+.sec4-content-btns{
     text-align: center;
     font-family: Lato, serif;
     font-size: 14px;
