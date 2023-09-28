@@ -2248,6 +2248,13 @@ button.button-play_video:hover {
     display: inline-flex;
     align-items: center;
     gap: 8px;
+
+    color: #1E212C;
+    font-family: Lato, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
 }
 
 .article-content-button button::after { 
