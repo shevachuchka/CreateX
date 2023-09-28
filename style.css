@@ -96,8 +96,8 @@ input {
     gap: 40px;
 }
 
-.header-menu-servise {
-    display: flex;
+.link-services {
+    display: inline-flex;
     align-items: center;
     gap: 7px;
 }
