@@ -1151,7 +1151,7 @@ button.button-play_video:hover {
     padding-left: 40px;
 }
 
-.acc button p {
+.acc button {
     color: #1E212C;
     font-family: Lato, serif;
     font-size: 20px;
@@ -1193,9 +1193,7 @@ button.button-play_video:hover {
     background: #7772F1;
     height: 44px;
     overflow: hidden;
-}
 
-.sec6-button button p {
     color: #FFF;
     text-align: center;
     font-family: Lato, serif;
@@ -1206,7 +1204,8 @@ button.button-play_video:hover {
     letter-spacing: 0.5px;
 }
 
-.sec6-button button p img {
+
+.sec6-button button img {
     height: 16px;
     width: 16px;
 }
@@ -1358,9 +1357,7 @@ button.button-play_video:hover {
     background: #7772F1;
     height: 52px;
     overflow-y: hidden;
-}
 
-.sec7-btn p {
     color: #FFF;
     text-align: center;
     font-family: Lato, serif;
@@ -1370,6 +1367,7 @@ button.button-play_video:hover {
     line-height: 52px;
     letter-spacing: 0.5px;
 }
+
 
 /* Swiper progbar */
 
