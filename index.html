@@ -1079,22 +1079,15 @@
                     </h1>
                 </div>
                 <div class="cards-btnSwitch">
-                    <button type="button" class="active btnSwitch-monthly" data-btn-target onclick="priceMonthly()">
+                    <button class="active btnSwitch-monthly btnMobSwitch" data-btn-target onclick="priceMonthly()"
+                            type="button">
                         <p>Monthly</p>
                     </button>
-                    <button type="button" class="btnSwitch-yearly" data-btn-target onclick="priceYearly()">
+                    <button class="btnSwitch-yearly btnMobSwitch" data-btn-target onclick="priceYearly()" type="button">
                         <p>Yearly <span>-12% Off</span></p>
                     </button>
                     <div class="cards-btn-amination">
                     </div>
-                </div>
-                <div class="cards-btnMobSwitch">
-                    <button type="button" class="btnMobSwitch active" data-btn-target onclick="priceMonthly()">
-                        Monthly
-                    </button>
-                    <button type="button" class="btnMobSwitch" data-btn-target onclick="priceYearly()">
-                        Yearly -12%
-                    </button>
                 </div>
                 <div class="row swiper sec9-swiper-mob" style="justify-content: center;">
                     <div class="swiper-wrapper" style="padding: 0;">
@@ -1252,7 +1245,7 @@
         <div class="container-fluid">
             <div class="sec11-wrapper">
 
-                <div class="sec11-text_btn col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                <div class="sec11-text_btn col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div class="sec11-text-h1">
                         <h1>Latest news</h1>
                     </div>
@@ -1263,8 +1256,8 @@
                         <button class="sec11-button" ctype="button">Go to blog</button>
                     </div>
                 </div>
-                <div class="sec11-blog-wrapper col-xl-8 col-lg-8 col-md-12 col-sm-12">
-                    <div class="sec11-blog-article col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="sec11-blog-wrapper">
+                    <div class="sec11-blog-article">
                         <div class="sec11-article-img">
                             <img class="sec11-article1" src="img/sec11-article1.png" alt="" srcset="">
                         </div>
@@ -1305,7 +1298,7 @@
                             <button type="button">Read more</button>
                         </div>
                     </div>
-                    <div class="sec11-blog-article col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="sec11-blog-article ">
                         <div class="sec11-article-img">
                             <img class="sec11-article1" src="img/sec11-article2.png" alt="" srcset="">
                         </div>
@@ -1353,7 +1346,8 @@
     <footer>
         <div class="container-fluid">
             <div class="footer-wrapper">
-                <div class="row" style="justify-content: space-between; width: 100%; padding-bottom: 50px;">
+                <div class="row"
+                     style="justify-content: space-between; flex-wrap: wrap; width: 100%; padding-bottom: 50px;">
                     <div class="footer-col1 col-3">
                         <img class="footer-main-logo" src="img/svg/main-logo.svg" alt="" srcset="">
                         <p>
@@ -1404,7 +1398,7 @@
                             hello@createx.com
                         </p>
                     </div>
-                    <div class="footer-col5 col-3">
+                    <div class="footer-col5 col-4">
                         <p class="footer-title" style="padding-bottom: 12px;">
                             SIGN UP TO OUR NEWSLETTER
                         </p>

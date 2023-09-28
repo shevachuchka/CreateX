@@ -72,7 +72,7 @@ for (let i = 0; i < accdn.length; i++) {
             content.style.display = "block";
         }
     });
-};
+}
 
 
 // Swiper

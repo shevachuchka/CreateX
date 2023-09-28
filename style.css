@@ -80,8 +80,8 @@ input {
 }
 
 .menu-text {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -124,24 +124,24 @@ p {
 
 .header-btn {
     display: inline-flex;
-    padding: 0px 40px;
+    padding: 0 40px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
     border-radius: 4px;
-    background: var(--primary, #7772F1);
+    background: #7772F1;
 }
 
 
 .button-text {
-    color: var(--white, #FFF);
+    color: #FFF;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 /* Burger menu */
@@ -157,7 +157,7 @@ p {
     z-index: -1;
     background: #FFF;
     border-radius: 20px;
-    opacity: .8;
+    opacity: 0.8;
     left: 0;
 }
 
@@ -179,7 +179,7 @@ p {
 }
 
 .burger-menu-text {
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -261,8 +261,8 @@ p {
 }
 
 .row1-p {
-    color: var(--white, #FFF);
-    font-family: Lato;
+    color: #FFF;
+    font-family: Lato, Serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
@@ -1294,12 +1294,12 @@ button.button-play_video:hover {
 .block2,
 .block3,
 .block4,
-.block5 {
-    
+.block5
     border-radius: 4px;
     border: 1px solid var(--gray-300, #E5E8ED);
     background: var(--white, #FFF);
-    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04)
+, 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
 }
 
 .block1-progbar1,
@@ -1339,7 +1339,7 @@ button.button-play_video:hover {
 }
 
 .sec7-p_btn p {
-    color: var(--gray-900, #1E212C);
+    color: #1E212C;
     font-family: Lato;
     font-size: 28px;
     font-style: normal;
@@ -1681,7 +1681,9 @@ button.button-play_video:hover {
 .cards-btnSwitch {
     position: relative;
     display: flex;
-    width: 390px;
+    gap: 15px;
+    max-width: 390px;
+    width: 100%;
     height: 46px;
     border-radius: 40px;
     border: 1px solid #7772F1;
@@ -2067,7 +2069,8 @@ button.button-play_video:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
     max-width: 1230px;
     margin: 0 auto;
     padding: 90px 0 180px 0;
@@ -2139,17 +2142,19 @@ button.button-play_video:hover {
     flex-direction: column;
     gap: 16px;
     max-width: 390px;
+    width: 100%;
 }
 
 .sec11-article-img {
     max-width: 390px;
-    height: 100%;
     overflow: hidden;
 }
 
 .sec11-article1 {
     transition: .5s ease;
     display: block;
+    max-width: 100%;
+    width: 100%;
 }
 
 .sec11-article1:hover {
@@ -2242,7 +2247,7 @@ button.button-play_video:hover {
     gap: 8px;
 }
 
-.article-content-button button::after {
+.article-content-button button::after { 
     padding-top: 2px;
     height: 24px;
     content: url(img/icons/Right.png);
@@ -2250,7 +2255,7 @@ button.button-play_video:hover {
 
 .sec11-blog-wrapper {
     display: inline-flex;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -2267,6 +2272,11 @@ footer {
     max-width: 1230px;
     margin: 0 auto;
     padding-top: 80px;
+}
+
+.footer-col-links {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-main-logo {
@@ -2389,7 +2399,11 @@ footer {
     display: inline-flex;
     flex-wrap: wrap;
     gap: 15px;
-    justify-content: space-between;
+}
+
+.footer-col2_col5 {
+    display: inline-flex;
+    justify-content: space-around;
 }
 
 .footer-button {
